@@ -4,10 +4,6 @@
       "titulo": "Animações 3D",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#ff6767",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
       "videos": [
         {
           "titulo": "The Stained Club",
@@ -44,80 +40,72 @@
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
+      "titulo": "Animações 2D",
+      "cor": "#93B5E3",
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Baby X",
+          "url": "https://www.youtube.com/watch?v=oyYn9izT9gc"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "On My Mind",
+          "url": "https://www.youtube.com/watch?v=-uuY_FXZtcc"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "The Gift",
+          "url": "https://www.youtube.com/watch?v=eOFeSM1E2F0"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "Wings",
+          "url": "https://www.youtube.com/watch?v=RtU8nBnpFVE"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Star Wars Anime Opening - Shinzo wo Sasageyo",
+          "url": "https://www.youtube.com/watch?v=zIdF52zJcfo&list=FLOglcAj3PlPNAMpm9UcY0"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      "titulo": "Trailer - Games",
+      "cor": "#008000",
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Far Cry 6",
+          "url": "https://www.youtube.com/watch?v=Jp5Y-a_oiPM"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Assassin's Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=TUbgBVTD7VI"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "CyberPunk 2077",
+          "url": "https://www.youtube.com/watch?v=YApuEWtG30w"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "The Last of Us Part II",
+          "url": "https://www.youtube.com/watch?v=16RlfA39vhM"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Trailers - Filmes",
+      "cor": "red",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Dois Irmãos",
+          "url": "https://www.youtube.com/watch?v=gn5QmllRCn4"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "HOMEM-ARANHA NO ARANHAVERSO",
+          "url": "https://www.youtube.com/watch?v=SS6ABPkfmBE"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Dragon Ball Super Broly",
+          "url": "https://www.youtube.com/watch?v=_K91eeP25NA"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "O Conto da Princesa Kaguya",
+          "url": "https://www.youtube.com/watch?v=LBohvCiLZ34"
         }
       ]
     },
