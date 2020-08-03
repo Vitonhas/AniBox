@@ -51,6 +51,12 @@ function Home() {
 
         />
 
+        <Carousel
+
+          category={dadosIniciais.categorias[6]}
+
+        />
+
       </PageDefault>
 
 
