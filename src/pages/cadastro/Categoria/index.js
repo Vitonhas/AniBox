@@ -30,7 +30,7 @@ function CadastroCategoria() {
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'https://localhost:8080/categorias'
-      : 'https://anibox.herokuapp.com/';
+      : 'https://anibox.herokuapp.com/categorias';
 
     fetch(URL)
       .then(async (respostaDoServidor) => {
