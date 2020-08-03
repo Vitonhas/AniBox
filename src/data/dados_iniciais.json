@@ -168,6 +168,29 @@
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
       ]
+    },
+    {
+      "titulo": "Tutoriais",
+      "cor": "#FFD700",
+
+      "videos": [
+        {
+          "titulo": "Blender Beginner Tutorial",
+          "url": "https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U&t=0s"
+        },
+        {
+          "titulo": "Complete Beginners Guide to Blender 2.8",
+          "url": "https://www.youtube.com/watch?v=7MRonzqYJgw&list=PLn3ukorJv4vs_eSJUQPxBRaDS8PrVmIri&index=2&t=0s"
+        },
+        {
+          "titulo": "Create A Low Poly Well",
+          "url": "https://www.youtube.com/watch?v=OlnkGCdtGEw"
+        },
+        {
+          "titulo": "12 Principles of Animation",
+          "url": "https://www.youtube.com/watch?v=uDqjIdI4bF4"
+        }
+      ]
     }
   ]
 }
