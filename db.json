@@ -2,9 +2,184 @@
     "categorias": [
       {
         "id": 1,
-        "nome": "Front End",
-        "descricao": "Uma categoria bacanuda",
-        "cor": "#cbd1ff"
+        "titulo": "Animações 3D",
+        "descricao": "Categoria que abriga todos curtas de animação 3D.",
+        "cor": "#ff6767"
+      },
+      {
+        "id": 2,
+        "titulo": "Animações 2D",
+        "descricao": "Categoria que abriga todos curtas de animação 2D.",
+        "cor": "#93B5E3"
+      },
+      {
+        "id": 3,
+        "titulo": "Trailer - Games",
+        "descricao": "Categoria que abriga todos os trailers de jogos.",
+        "cor": "#93B5E3"
+      },
+      {
+        "id": 4,
+        "titulo": "Trailer - Filmes",
+        "descricao": "Categoria que abriga todos os trailers de jogos.",
+        "cor": "#FF0000"
+      },
+      {
+        "id": 5,
+        "titulo": "Tutoriais",
+        "descricao": "Categoria que abriga todos os tutoriais de animação.",
+        "cor": "#FFD700"
       }
-    ]
+    ],
+      "videos": [
+        {
+          "id": 1,
+          "categoriaId":1,
+          "titulo": "The Stained Club",
+          "url": "https://www.youtube.com/watch?v=ye9GdZ6R-hQ&t"
+        },
+        {
+          "id": 2,
+          "categoriaId":1,
+          "titulo": "Spring",
+          "url": "https://www.youtube.com/watch?v=WhWc3b3KhnY"
+        },
+        {
+          "id": 3,
+          "categoriaId":1,
+          "titulo": "Agente 327: Operação Barbearia",
+          "url": "https://www.youtube.com/watch?v=mN0zPOpADL4"
+        },
+        {
+          "id": 4,
+          "categoriaId":1,
+          "titulo": "Wire Cutters",
+          "url": "https://www.youtube.com/watch?v=W9J15fDAFxc"
+        },
+        {
+          "id": 5,
+          "categoriaId":1,
+          "titulo": "Garden Party",
+          "url": "https://www.youtube.com/watch?v=bX8GaZ3O4-Q"
+        },
+        {
+          "id": 6,
+          "categoriaId":1,
+          "titulo": "Negative Space",
+          "url": "https://www.youtube.com/watch?v=KI2lsdXJQ40"
+        },
+        {
+          "id": 7,
+          "categoriaId":1,
+          "titulo": "The Present",
+          "url": "https://www.youtube.com/watch?v=WjqiU5FgsYc"
+        },
+        {
+          "id": 8,
+          "categoriaId":1,
+          "titulo": "Snack Attack",
+          "url": "https://www.youtube.com/watch?v=38y_1EWIE9I"
+        },
+        {
+          "id": 9,
+          "categoriaId": 2,
+          "titulo": "Baby X",
+          "url": "https://www.youtube.com/watch?v=oyYn9izT9gc"
+        },
+        {
+          "id": 10,
+          "categoriaId": 2,
+          "titulo": "On My Mind",
+          "url": "https://www.youtube.com/watch?v=-uuY_FXZtcc"
+        },
+        {
+          "id": 11,
+          "categoriaId": 2,
+          "titulo": "The Gift",
+          "url": "https://www.youtube.com/watch?v=eOFeSM1E2F0"
+        },
+        {
+          "id": 12,
+          "categoriaId": 2,
+          "titulo": "Wings",
+          "url": "https://www.youtube.com/watch?v=RtU8nBnpFVE"
+        },
+        {
+          "id": 13,
+          "categoriaId": 2,
+          "titulo": "Star Wars Anime Opening - Shinzo wo Sasageyo",
+          "url": "https://www.youtube.com/watch?v=zIdF52zJcfo&list=FLOglcAj3PlPNAMpm9UcY0"
+        },
+        {
+          "id": 14,
+          "categoriaId": 3,
+          "titulo": "Far Cry 6",
+          "url": "https://www.youtube.com/watch?v=Jp5Y-a_oiPM"
+        },
+        {
+          "id": 15,
+          "categoriaId": 3,
+          "titulo": "Assassin's Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=TUbgBVTD7VI"
+        },
+        {
+          "id": 16,
+          "categoriaId": 3,
+          "titulo": "CyberPunk 2077",
+          "url": "https://www.youtube.com/watch?v=YApuEWtG30w"
+        },
+        {
+          "id": 17,
+          "categoriaId": 3,
+          "titulo": "The Last of Us Part II",
+          "url": "https://www.youtube.com/watch?v=16RlfA39vhM"
+        },
+        {
+          "id": 18,
+          "categoriaId": 4,
+          "titulo": "Dois Irmãos",
+          "url": "https://www.youtube.com/watch?v=gn5QmllRCn4"
+        },
+        {
+          "id": 19,
+          "categoriaId": 4,
+          "titulo": "HOMEM-ARANHA NO ARANHAVERSO",
+          "url": "https://www.youtube.com/watch?v=SS6ABPkfmBE"
+        },
+        {
+          "id": 20,
+          "categoriaId": 4,
+          "titulo": "Dragon Ball Super Broly",
+          "url": "https://www.youtube.com/watch?v=_K91eeP25NA"
+        },
+        {
+          "id": 21,
+          "categoriaId": 4,
+          "titulo": "O Conto da Princesa Kaguya",
+          "url": "https://www.youtube.com/watch?v=LBohvCiLZ34"
+        },
+        {
+          "id": 22,
+          "categoriaId": 5,
+          "titulo": "Blender Beginner Tutorial",
+          "url": "https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U&t=0s"
+        },
+        {
+          "id": 23,
+          "categoriaId": 5,
+          "titulo": "Complete Beginners Guide to Blender 2.8",
+          "url": "https://www.youtube.com/watch?v=7MRonzqYJgw&list=PLn3ukorJv4vs_eSJUQPxBRaDS8PrVmIri&index=2&t=0s"
+        },
+        {
+          "id": 24,
+          "categoriaId": 5,
+          "titulo": "Create A Low Poly Well",
+          "url": "https://www.youtube.com/watch?v=OlnkGCdtGEw"
+        },
+        {"id": 25,
+          "categoriaId": 5,
+          "titulo": "12 Principles of Animation",
+          "url": "https://www.youtube.com/watch?v=uDqjIdI4bF4"
+        }
+      ]
   }

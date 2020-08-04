@@ -2,44 +2,33 @@ import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Buttons';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresInciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
-  const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresInciais);
+  const { handleChange, values } = useForm(valoresInciais);
 
-  function setValue(keyValue, Svalue) {
-    setValues({
-      ...values,
-      [keyValue]: Svalue,
-    });
-  }
-
-  function handleChange(info) {
-    setValue(
-      info.target.getAttribute('name'),
-      info.target.value,
-    );
-  }
+  const [categorias, setCategorias, clearForm] = useState([]);
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'https://localhost:8080/categorias'
-      : 'https://anibox.herokuapp.com/categorias';
-
-    fetch(URL)
-      .then(async (respostaDoServidor) => {
-        const resposta = await respostaDoServidor.json();
-        setCategorias([
-          ...resposta,
-        ]);
-      });
-  });
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
+  }, []);
 
   return (
     <PageDefault>
@@ -48,20 +37,20 @@ function CadastroCategoria() {
         event.preventDefault();
         setCategorias([
           ...categorias,
-          values.nome,
+          values.titulo,
           values.descricao,
           values.cor,
         ]);
 
-        setValues(valoresInciais);
+        clearForm();
       }}
       >
 
         <FormField
           label="Nome da Categoria: "
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -86,8 +75,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
             ;
           </li>
         ))}
